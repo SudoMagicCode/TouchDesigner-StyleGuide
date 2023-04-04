@@ -2,7 +2,7 @@
 layout: default
 title: Project Organization
 parent: SudoMagic Style Guide
-nav_order: 3
+nav_order: 5
 ---
 
 # A TOX Centric Approach

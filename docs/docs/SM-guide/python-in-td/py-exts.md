@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Logging
-parent: SudoMagic Style Guide
-nav_order: 7
+title: Extensions
+parent: Python
+grand_parent: SudoMagic Style Guide
+nav_order: 3
 ---
 
-# Logging - Events and Debugging
+# Extensions
 {: .no_toc }
 
 ## Table of contents
@@ -15,4 +16,3 @@ nav_order: 7
 {:toc}
 
 ---
-
