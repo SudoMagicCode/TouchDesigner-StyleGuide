@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Modules
-parent: Python
+title: GLSL Includes
+parent: GLSL
 grand_parent: SudoMagic Style Guide
-nav_order: 1
+nav_order: 3
 ---
 
-# Modules
+# GLSL in TouchDesigner
 {: .no_toc }
 
 ## Table of contents
@@ -17,7 +17,4 @@ nav_order: 1
 
 ---
 
-# Functional Paradigms
-
-<!-- links -->
-[MOD Class]:https://docs.derivative.ca/MOD_Class
+Place holder for includes

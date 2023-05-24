@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Python
+title: GLSL
 parent: SudoMagic Style Guide
 has_children: true
-nav_order: 4
+nav_order: 5
 ---
 
-# Naming
+# GLSL in TouchDesigner
 {: .no_toc }
 
 ## Table of contents
@@ -16,3 +16,5 @@ nav_order: 4
 {:toc}
 
 ---
+
+GLSL is a shading language
