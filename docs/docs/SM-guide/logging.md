@@ -1,18 +1,10 @@
 ---
-layout: default
 title: Logging
-parent: SudoMagic Style Guide
-nav_order: 7
+sidebar_position: 7
+description: Keeping track of what went right and wrong
 ---
 
 # Logging - Events and Debugging
-{: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
 
-1. TOC
-{:toc}
-
----
 

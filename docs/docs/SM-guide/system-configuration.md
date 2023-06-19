@@ -1,8 +1,7 @@
 ---
-layout: default
 title: System Configuration
-parent: SudoMagic Style Guide
-nav_order: 6
+sidebar_position: 6
+description: Configuring your project from file
 ---
 
 # System Configuration

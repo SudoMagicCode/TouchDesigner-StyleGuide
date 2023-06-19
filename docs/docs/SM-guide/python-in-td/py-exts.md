@@ -1,25 +1,14 @@
 ---
-layout: default
 title: Extensions
-parent: Python
-grand_parent: SudoMagic Style Guide
-nav_order: 2
+sidebar_position: 2
+description: Python extensions in TouchDesigner
 ---
 
 # Extensions
-{: .no_toc }
 
-## Table of contents
-{: .no_toc .text-delta }
+## Custom Class Objects
 
-1. TOC
-{:toc}
-
----
-
-# Custom Class Objects
-
-## Type Hinting
+### Type Hinting
 
 As a quick reminder, Python is a dynamically typed language. Which is to say that unlike other languages where we must specify a variable type during it's creation, the type of a variable in Python is largely determined at run time. That makes for a very flexible language, but can create some challenges during development - it's easy to incorrectly pass an argument type and then spend valuable debugging only to discover that you pass a `str` instead of an `int`. Python now supports type hinting, which allows you to more easily track the argument type. 
 
@@ -29,7 +18,7 @@ When possible, it is highly recommended that that you use type hints - not only 
 * [mypy type hints cheat sheet]
 * [Python docs typing]
 
-## Doc Strings
+### Doc Strings
 
 ```python
 def foo(arg1:int, arg2:str) -> list:
@@ -53,7 +42,7 @@ def foo(arg1:int, arg2:str) -> list:
     return my_list
 ```
 
-## Promoted Methods
+### Promoted Methods
 
 ```python
 class Foo:
@@ -64,7 +53,7 @@ class Foo:
         pass
 ```
 
-## Internal Methods
+### Internal Methods
 
 ```python
 class Foo:
@@ -75,7 +64,7 @@ class Foo:
         pass
 ```
 
-## Private Methods
+### Private Methods
 
 ```python
 class Foo:
@@ -86,12 +75,11 @@ class Foo:
         pass
 ```
 
-# Singletons
+## Singletons
 
 Classes that belong to a single instance of an operator. 
-{: .fs-6 .fw-300 }
 
-## Common Characteristics
+### Common Characteristics
 
 ```python
 class Output:
@@ -103,7 +91,7 @@ class Output:
         print('Running Touch Start | Output')
 ```
 
-# Other Class Objects
+## Other Class Objects
 
 
 

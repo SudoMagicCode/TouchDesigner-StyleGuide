@@ -1,0 +1,8 @@
+{
+  "label": "GLSL",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "A considered approach to GLSL in TouchDesigner"
+  }
+}
