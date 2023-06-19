@@ -1,9 +1,7 @@
 ---
-layout: default
 title: Modules
-parent: Python
-grand_parent: SudoMagic Style Guide
-nav_order: 1
+sidebar_position: 1
+description: Python modules in TouchDesigner
 ---
 
 # Modules

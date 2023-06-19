@@ -1,9 +1,7 @@
 ---
-layout: default
 title: Local Modules
-parent: Python
-grand_parent: SudoMagic Style Guide
-nav_order: 3
+sidebar_position: 3
+description: A special case for Python modules in TouchDesigner
 ---
 
 # Local Modules

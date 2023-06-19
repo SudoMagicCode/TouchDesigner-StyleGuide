@@ -1,19 +1,7 @@
 ---
-layout: default
 title: Network Organization
-parent: SudoMagic Style Guide
-nav_order: 3
----
-
-# Network Organization
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
+sidebar_position: 3
+description: Organizing your thoughts and your noodles
 ---
 
 # Network Organization
