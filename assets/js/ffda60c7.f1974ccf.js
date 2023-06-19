@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[9695],{588:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/TouchDesigner-StyleGuide/blog/tags/hola","allTagsPath":"/TouchDesigner-StyleGuide/blog/tags","count":1}')}}]);
