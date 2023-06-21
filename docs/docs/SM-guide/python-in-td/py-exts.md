@@ -93,8 +93,6 @@ class Output:
 
 ## Other Class Objects
 
-
-
 <!-- links -->
 [TouchDesigner Extensions]:https://docs.derivative.ca/Extensions
 [Real Python type hinting lesson]:https://realpython.com/lessons/type-hinting/

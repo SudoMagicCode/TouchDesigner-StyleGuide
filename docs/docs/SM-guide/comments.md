@@ -27,3 +27,5 @@ Use a text friendly formatting approach. Avoid using something like Word or goog
 * Take all of your notes in a single DAT – this can make it difficult to connect your thoughts with your network.
 * Make your text DAT in largely disproportionately sized from your other operators.
 * Make no comments at all – always write something. Any hint at what you were thinking and doing is better than having nothing at all.
+
+<!-- links -->
