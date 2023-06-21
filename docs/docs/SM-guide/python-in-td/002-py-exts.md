@@ -2,6 +2,7 @@
 title: Extensions
 sidebar_position: 2
 description: Python extensions in TouchDesigner
+slug: /SM-guide/python-in-td/extensions
 ---
 
 # Extensions
@@ -92,6 +93,8 @@ class Output:
 ```
 
 ## Other Class Objects
+
+## Links to Derivative's official docs
 
 <!-- links -->
 [TouchDesigner Extensions]:https://docs.derivative.ca/Extensions

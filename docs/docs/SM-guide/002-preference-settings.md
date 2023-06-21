@@ -2,6 +2,7 @@
 title: Preferences
 description: An overview of TouchDesigner preferences
 sidebar_position: 1
+slug: /SM-guide/preferences
 ---
 
 # Recommended Preference Settings
@@ -45,7 +46,7 @@ network.fittoptotile	0
 network.zoomboost	1.0000002
 ```
 
-## Links to the official docs
+## Links to Derivative's official docs
 * [Preference Dialog]
 * [Preference Class]
 

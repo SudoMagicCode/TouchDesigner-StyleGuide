@@ -2,6 +2,7 @@
 title: Network Organization
 sidebar_position: 3
 description: Organizing your thoughts and your noodles
+slug: /SM-guide/network-organization
 ---
 
 # Network Organization
@@ -33,5 +34,7 @@ If you’re not yet sold on this idea, at the very least consider dividing up yo
 * Forget to learn from your mistakes – we all make them, it’s the joy of working on projects at large scales. It’s okay to fall down, just remember to get up and avoid that same trap the next time around.
 * Forget that you might not be the person to implement your code – we sometimes have to hand off a project to another team member, or are only in charge of developing a small piece of a larger project. There’s a good chance that what you make will need to be decipherable by another team member. Don’t assume that you will always be available to describe what’s in your network – write it (and document it) so that another could pick it up, and continue with minimal effort.
 * Forget to ask for help – we have one of the most remarkable TouchDesigner teams in the world – perhaps the most remarkable collection of them. There’s a good chance that the answers are in the room.
+
+## Links to Derivative's official docs
 
 <!-- links -->

@@ -2,6 +2,7 @@
 title: Auto-Complete
 sidebar_position: 4
 description: An overview of Python autocomplete in VS Code
+slug: /SM-guide/python-in-td/py-td-auto-complete
 ---
 
 # Auto-Complete
