@@ -2,6 +2,7 @@
 title: GLSL Comments
 nav_order: 2
 description: GLSL comments
+slug: /SM-guide/glsl-in-td/glsl-comments
 ---
 
 # GLSL in TouchDesigner
@@ -43,3 +44,6 @@ void main(){
     fragColor         = TDOutputSwizzle(color);
 }
 ```
+## Links to Derivative's official docs
+
+<!-- links -->

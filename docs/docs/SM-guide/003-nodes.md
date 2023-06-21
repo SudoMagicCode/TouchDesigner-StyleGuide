@@ -2,6 +2,7 @@
 title: Nodes
 sidebar_position: 2
 description: Working with Nodes
+slug: /SM-guide/nodes
 ---
 
 # Nodes
@@ -112,3 +113,7 @@ While there isn’t a defined flow, there is an implied western bias in a left t
 * Vertically stack operators and connect them with S-curves.
 * Dock and hide important nodes – scripts, notes, shaders, are all examples of acceptable items. NEVER dock and hide essential network elements. By hiding an essential part of your network, you make it exponentially more difficult for another programmer to debug your network, or understand your process.
 * Arrange your nodes haphazardly
+
+## Links to Derivative's official docs
+
+<!-- links -->
