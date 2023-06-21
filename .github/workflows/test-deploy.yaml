@@ -1,5 +1,10 @@
 name: Test deployment
 
+defaults:
+  run:
+    shell: bash
+    working-directory: ./docs/
+
 on:
   pull_request:
     branches:
@@ -16,6 +21,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache-dependency-path: docs/yarn.lock
           cache: yarn
 
       - name: Install dependencies
