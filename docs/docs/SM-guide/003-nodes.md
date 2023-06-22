@@ -1,6 +1,5 @@
 ---
 title: Nodes
-sidebar_position: 2
 description: Working with Nodes
 slug: /SM-guide/nodes
 ---
