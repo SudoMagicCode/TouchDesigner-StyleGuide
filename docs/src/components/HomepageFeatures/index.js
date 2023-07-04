@@ -4,32 +4,33 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'For Everyone',
+    Svg: require('@site/static/img/front-page/for-everyone.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        No matter your background or experience level, these Style Guides are 
+        references you can start using right away.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Write Clean Code',
+    Svg: require('@site/static/img/front-page/clean-code.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Well organized projects make it easier for your future self, and for 
+        other developers on your team. Using a unified style can make it easier
+        to pick up old projects faster, or build projects with other team members.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Real World Standards',
+    Svg: require('@site/static/img/front-page/real-world.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Standard practices from professionals working with TouchDesigner 
+        for projects of all sizes. 
       </>
     ),
   },
