@@ -31,3 +31,9 @@
   --ifm-color-primary-lightest: #4cffc3;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+pullquote{
+  font-size: large;
+  line-height: 200%;
+  font-style: italic;
+}
