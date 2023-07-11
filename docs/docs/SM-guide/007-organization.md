@@ -83,6 +83,5 @@ base_scaffold
 
 ## Links to Derivative's official docs
 
-## Links to Derivative's official docs
 
 <!-- links -->
