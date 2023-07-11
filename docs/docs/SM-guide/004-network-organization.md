@@ -1,6 +1,5 @@
 ---
 title: Network Organization
-sidebar_position: 3
 description: Organizing your thoughts and your noodles
 slug: /SM-guide/network-organization
 ---

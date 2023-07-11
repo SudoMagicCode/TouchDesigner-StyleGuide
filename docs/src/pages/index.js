@@ -7,6 +7,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
+const contributeLink = 'https://github.com/SudoMagicCode/TouchDesigner-StyleGuide/discussions/4'
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -26,16 +28,36 @@ function HomepageHeader() {
   );
 }
 
+function HomepageContribute() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.heroContribute)}>
+      <div className="container">
+        <h1 className="hero__title">Want to Contribute?</h1>
+        <p className="hero__subtitle">Suggest edits, or start your own style guide</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to={contributeLink}>
+            Start Contributing
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
+}
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
+      <HomepageContribute />
     </Layout>
   );
 }

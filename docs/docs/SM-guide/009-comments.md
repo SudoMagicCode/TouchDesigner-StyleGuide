@@ -1,6 +1,5 @@
 ---
 title: Comments
-sidebar_position: 8
 description: In network documentation
 slug: /SM-guide/network-comments
 ---
