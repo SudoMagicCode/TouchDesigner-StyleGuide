@@ -51,6 +51,20 @@ def Foo_bar(arg1:int) -> None:
     """
 ```
 
+#### Short Form
+The short form usage is acceptable when there is a present type hint for any arguments and returns. Provided that hints are present, the doc string can be abridged to only include a brief description of the method / function.
+
+```python
+def Foo_bar(arg1:str) -> None:
+    """One line description
+
+    Any additional comments or operational considerations you'd like
+    to add about the method in question.
+    ""
+```
+
+---
+
 ### Header
 
 #### Practical Example
@@ -87,6 +101,8 @@ import Lookup
 # pure python
 ```
 
+---
+
 ### Class
 
 #### Practical Example
@@ -114,6 +130,8 @@ class Foo:
     to add about the class in question.
     """
 ```
+
+---
 
 ### Method
 
@@ -159,7 +177,20 @@ def Bar(self, arg1:str) -> None:
     """
 ```
 
+#### Short Form
+The short form usage is acceptable when there is a present type hint for any arguments and returns. Provided that hints are present, the doc string can be abridged to only include a brief description of the method / function.
+
+```python
+def Bar(self, arg1:str) -> None:
+    """One line description
+
+    Any additional comments or operational considerations you'd like
+    to add about the method in question.
+    """
+```
+
 ## Links to Derivative's official docs
+[MOD Class]
 
 <!-- links -->
 [MOD Class]:https://docs.derivative.ca/MOD_Class
