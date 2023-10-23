@@ -32,4 +32,12 @@ logging.info("PROJECT | System settings loded sucessfully")
 
 ## Links to Derivative's official docs
 
+
+
+## Additional Support docs
+
+* [Python Logging Module]
+
 <!-- links -->
+
+[Python Logging Module]:https://docs.python.org/3/howto/logging.html
