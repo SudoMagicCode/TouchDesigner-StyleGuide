@@ -14,7 +14,7 @@ First and foremost, please consider adding a readme DAT to any major component. 
 
 Unlike a readme, comments should focus on a particular element in your network. Avoid the temptation to write one large text DAT with all of your thoughts as bullet points. While this may initially seem efficient, it divorces your thoughts and explanations form the nodes which they refer to. Instead consider a multiple text DATs with comments close to their relevant procedures. It’s also important to include a name, contact solution, and a date in your comments. Knowing who and when a particular idea or approach came from is often helpful in understanding a given network – it also gives you a person to ask about how a particular problem was solved if you’re confused about what’s happening in a given project. It’s also worth considering a color schema for your comments. This makes it easy to scan a network for nodes immediately recognizable as comments – another programmer new to your network can quickly scan for nodes with a non standard color coding in order to get a sense of what’s happening. Finally, for comments and readme text DATs make sure you’ve turned on word wrap in your text DAT – this located on the common page in the ops parameters.
 
-### Do
+:::tip  Do
 
 * Color code your comments to make them easier to find
 * Use a standard format for your comments – make sure to include your name, a way to contact you, and a time stamp.
@@ -22,11 +22,19 @@ Use a text friendly formatting approach. Avoid using something like Word or goog
 * Place your thoughts close to the relevant portion of the network.
 * Use the word wrap feature on text DATs.
 
-### Don’t
+
+
+:::
+
+:::danger Don't
 
 * Take all of your notes in a single DAT – this can make it difficult to connect your thoughts with your network.
 * Make your text DAT in largely disproportionately sized from your other operators.
 * Make no comments at all – always write something. Any hint at what you were thinking and doing is better than having nothing at all.
+
+![](/img/SM-guide/comments/dont-comments.png)
+
+:::
 
 ## Links to Derivative's official docs
 
