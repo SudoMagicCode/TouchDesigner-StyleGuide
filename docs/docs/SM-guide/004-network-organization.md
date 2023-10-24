@@ -16,7 +16,7 @@ This brings us to a larger question of organization – in what manner should on
 
 If you’re not yet sold on this idea, at the very least consider dividing up your network, spatially, into regions responsible for a given task. Create territories for rendering, texture building, and instance translation. The most difficult to parse networks a wandering collision of every element in a single space. When possible, it is essential that you avoid this kind of programming. All of us invariably work fast and hard, creating functional but not elegant code – that, however, should not be our primary modus operandi.
 
-## Do
+:::tip  Do
 
 * Break apart your networks into modular pieces when possible
 * Create easily visually navigable networks.
@@ -25,7 +25,11 @@ If you’re not yet sold on this idea, at the very least consider dividing up yo
 * Limit the complexity of any given network – if you find a network is growing to be too sprawling, how might you re-organize or compartmentalize your implementation?
 * Think of your work in terms of a test against the other members of the team – would this structure and approach pass a Barry test? a Vlad test? a Bryant test?
 
-## Don’t
+
+
+:::
+
+:::danger Don’t
 
 * Make messes you never attend to – “I’ll clean it up later” is the mantra of every creative coder at one point or another. If you have have enough time to have that thought, you have enough time to make a plan to refactor your code for a cleaner implementation.
 * Be happy with your first draft – you built it fast and hard on the first pass to rough out the idea, but that shouldn’t be good enough for the final implementation.
@@ -33,6 +37,10 @@ If you’re not yet sold on this idea, at the very least consider dividing up yo
 * Forget to learn from your mistakes – we all make them, it’s the joy of working on projects at large scales. It’s okay to fall down, just remember to get up and avoid that same trap the next time around.
 * Forget that you might not be the person to implement your code – we sometimes have to hand off a project to another team member, or are only in charge of developing a small piece of a larger project. There’s a good chance that what you make will need to be decipherable by another team member. Don’t assume that you will always be available to describe what’s in your network – write it (and document it) so that another could pick it up, and continue with minimal effort.
 * Forget to ask for help – we have one of the most remarkable TouchDesigner teams in the world – perhaps the most remarkable collection of them. There’s a good chance that the answers are in the room.
+
+![](/img/SM-guide/network-organization/dont-network-org.png)
+
+:::
 
 ## Links to Derivative's official docs
 

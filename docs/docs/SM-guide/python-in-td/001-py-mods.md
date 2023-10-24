@@ -15,15 +15,15 @@ This does, however, make for some interesting challenges and considerations. Spe
 
 Consider the following scenario - in your project you want write a wrapper for the python `datetime` library. It's not uncommon to want to modify standard libraries so they are a better fit for the TouchDesigner workflow, and writing a wrapper around a library like `datetime` is something you might do. Feeling clever, you decide to change the name of your Text DAT to `datetime` - since it is your new datetime library. 
 
-![](../../../static/img/SM-guide/python/python-modules-01.png)
+![](/img/SM-guide/python/python-modules-01.png)
 
 What's not to love about this? Next you want to call your new functions from another DAT. You add another DAT to your network and `import datetime` and call the functions you've just written.
 
-![](../../../static/img/SM-guide/python/python-modules-02.png)
+![](/img/SM-guide/python/python-modules-02.png)
 
 At this point everything is coming up roses[^1]. There is, however, a catch to this approach - what happens if we try to access the pure Python `datetime` library from our `text1` DAT?
 
-![](../../../static/img/SM-guide/python/python-modules-03.png)
+![](/img/SM-guide/python/python-modules-03.png)
 
 Errors abound. We've now created a complicated namespace - we are both importing the standard Python library called `datetime` and naming a Text DAT `datetime` which we are importing in the context of TouchDesigner as `datetime`. That means that only in our TextDAT version of `datetime` can we access any of the other functions in this library - which is deeply confusing. Said another way, we've overridden the standard library with our own module and created a namespace mess. For this reason, it's worth adopting a naming schema that helps ensure that these types of collisions are less likely to occur. 
 
