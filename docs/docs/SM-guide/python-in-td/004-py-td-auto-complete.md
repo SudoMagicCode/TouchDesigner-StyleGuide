@@ -66,8 +66,9 @@ def FetchDateAndTime():
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 ```
 
-{: .warning}
+:::warning
 This is considered bad form since it would be difficult for another developer to find that hidden import statement.
+:::
 
 ### Where does it come from?
 

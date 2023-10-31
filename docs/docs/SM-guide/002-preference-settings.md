@@ -7,7 +7,6 @@ slug: /SM-guide/preferences
 # Recommended Preference Settings
 
 Preferences is a dialog for setting personal default settings for various TouchDesigner options. These preferences are found in the Edit menu under Preferences.... These options are saved so they apply to your next TouchDesigner session. 
-{: .fs-6 .fw-300 }
 
 From the Edit menu select the Preferences dialog box. Alternatively, you could use the keyboard short-cut Alt + p
 
