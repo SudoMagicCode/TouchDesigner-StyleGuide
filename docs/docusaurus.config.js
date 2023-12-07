@@ -31,6 +31,11 @@ const config = {
     locales: ['en'],
   },
 
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   plugins: [
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
@@ -108,7 +113,8 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} SudoMagic, LLC. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()
+          } SudoMagic, LLC.Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.oneLight,
@@ -117,5 +123,6 @@ const config = {
       },
     }),
 };
+
 
 module.exports = config;
