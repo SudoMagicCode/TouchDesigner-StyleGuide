@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "name": "TD Style Guide",
+            "path": "../docs/",
+            "cwd": "${workspaceFolder}/docs",
+        },
+    ],
+    "settings": {
+        "workbench.colorTheme": "Super Contrast (rainglow)",
+    },
+}
