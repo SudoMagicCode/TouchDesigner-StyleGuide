@@ -7,7 +7,7 @@ slug: /SM-guide/python-in-td/modules
 
 # Modules
 
-Python in TouchDesigner shares many of the characteristics of a pure Python development experience, but also has some distinct differences. Inside of TouchDesigner Text DATs behave as though they are text files. This allows us the flexability of writing generic Python functions in one DAT, and then calling that function in another - for example with a CHOP Execute DAT. The mechanics of this are defined in the [MOD Class] wiki page, and cover three different ways you might import modules whose code is inside of DATs. 
+Python in TouchDesigner shares many of the characteristics of a pure Python development experience, but also has some distinct differences. Inside of TouchDesigner Text DATs behave as though they are text files. This allows us the flexibility of writing generic Python functions in one DAT, and then calling that function in another - for example with a CHOP Execute DAT. The mechanics of this are defined in the [MOD Class] wiki page, and cover three different ways you might import modules whose code is inside of DATs. 
 
 This does, however, make for some interesting challenges and considerations. Specifically, committing to a defined paradigm for your namespace is critical when importing modules from Text DATs.
 
