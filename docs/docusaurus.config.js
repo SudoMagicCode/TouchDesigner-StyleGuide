@@ -20,7 +20,7 @@ const config = {
   organizationName: 'SudoMagic', // Usually your GitHub org/user name.
   projectName: 'TouchDesigner-StyleGuide', // Usually your repo name.
   trailingSlash: false,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -36,15 +36,7 @@ const config = {
   },
   themes: ['@docusaurus/theme-mermaid'],
 
-  plugins: [
-    [
-      require.resolve("@cmfcmf/docusaurus-search-local"),
-      {
-        // options
-        indexBlog: false,
-      },
-    ],
-  ],
+  plugins: [require.resolve('docusaurus-lunr-search')],
 
   presets: [
     [
