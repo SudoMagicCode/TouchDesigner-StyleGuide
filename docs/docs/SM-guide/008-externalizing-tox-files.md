@@ -4,8 +4,6 @@ description: An examination of the use of TOX files when building your project
 slug: /SM-guide/external-tox-files
 ---
 
-# A TOX Centric Approach
-
 In our current general networking building strategy, as many elements as possible are externalized. The strategy of externalizing the contents of a network helps:
 
 * reduce toe file size
@@ -18,6 +16,7 @@ In our current general networking building strategy, as many elements as possibl
 Structurally, we build our repo directories to match our toe file directories. If a given base is located in /software_project_name/base_communication, then it’s tox file should be saved at a repo location that matches. The thinking here is to build parallel structures between networks and directories. Why? You might ask. Mirroring directory structures can help other programmers locate your work. This conventionalized method of locating files, means that if you know where a given module lives in a network, you should also be able to locate that file in the reop. For any frustration this may cause during building, it solves an innumerable number of problems during debugging and code exchange.
 
 ## Node Naming Conventions
+
 Clear namespace use is essential to any project. If you’re familiar with the Zen of Python, you might remember two essential ideas:
 
 * Explicit is better than implicit
@@ -40,6 +39,5 @@ in order to call this function. The shortening of this by the prefix `text_` may
 `mod.system_configuration.start_up()`
 
 This also helps distinguish our module - which is essentially being accessed as a library - and a regular text DAT.
-
 
 <!-- links -->

@@ -4,9 +4,10 @@ description: Keeping track of what went right and wrong
 slug: /SM-guide/logging
 ---
 
-# Logging - Events and Debugging
 
-SudoMagic uses a modified version of the Python logging module to log events both to the TouchDesigner `text port` and to file. The logging module is used in part due to the ability to log to file, and to send a message to the standard out as well as to file. This ensures the messages appear in TouchDesigner, as well as in an output file. 
+SudoMagic uses a modified version of the Python logging module to log events both to the TouchDesigner `text port` and to file. The logging module is used in part due to the ability to log to file, and to send a message to the standard out as well as to file. This ensures the messages appear in TouchDesigner, as well as in an output file.
+
+## Events and Debugging
 
 New log files should be generated for each day - ensuring that no single log file is an unreasonable length to parse. The SudoMagic logging module is configured to output log files to `_public/logs`. The `_public` folder location is partially derived for the TD project file. This means that it may or may not exist alongside the `.toe` file.
 
@@ -22,17 +23,13 @@ Logging requires that you import the logging module into any extension or script
 import logging
 ```
 
-Ideally, log messages should be traceable to sensible sources. For example class singletons should identify if a log message belongs to them - i.e. 
+Ideally, log messages should be traceable to sensible sources. For example class singletons should identify if a log message belongs to them - i.e.
 
 ```python
 logging.info("PROJECT | System settings loded sucessfully")
 ```
 
-
-
 ## Links to Derivative's official docs
-
-
 
 ## Additional Support docs
 
