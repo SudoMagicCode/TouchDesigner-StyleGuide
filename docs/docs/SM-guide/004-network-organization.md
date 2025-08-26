@@ -4,8 +4,6 @@ description: Organizing your thoughts and your noodles
 slug: /SM-guide/network-organization
 ---
 
-# Network Organization
-
 A network’s re-usability lives and dies in its organization and structuring. While there are limits to a modular approach, it’s well worth considering the larger implications around cultivating a forward focused temperament when building new systems. Every project will eventually come up against deadlines, changes orders, and the necessities of project delivery. To the best of our abilities, however, we might consider a tempered approach to thinking about how a particular element might be able to be used and re-used in future projects.
 
 To that end, clear organization and careful planning help facilitate this process. For the sake of a simple case study, let’s for a moment consider instancing networks. For the uninitiated, instancing allows you to reuse a single piece of geometry once it’s been passed to the GPU. This method of drawing geometry is significantly cheaper, computationally, than drawing additional copies of the geometry on the CPU. In principle, you only draw the geometry once, then create a transformation matrix for subsequent copies of the original geometry. The transformation of the copies is most efficiently done in CHOP channels, sometimes initially fed by a geometry converted to channel data.
@@ -24,8 +22,6 @@ If you’re not yet sold on this idea, at the very least consider dividing up yo
 * Think ahead – what organizational method best sets you up for success in the future?
 * Limit the complexity of any given network – if you find a network is growing to be too sprawling, how might you re-organize or compartmentalize your implementation?
 * Think of your work in terms of a test against the other members of the team – would this structure and approach pass a Barry test? a Vlad test? a Bryant test?
-
-
 
 :::
 

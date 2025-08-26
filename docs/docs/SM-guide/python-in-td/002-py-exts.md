@@ -5,13 +5,12 @@ description: Python extensions in TouchDesigner
 slug: /SM-guide/python-in-td/extensions
 ---
 
-# Extensions
 
 ## Custom Class Objects
 
 ### Type Hinting
 
-As a quick reminder, Python is a dynamically typed language. Which is to say that unlike other languages where we must specify a variable type during it's creation, the type of a variable in Python is largely determined at run time. That makes for a very flexible language, but can create some challenges during development - it's easy to incorrectly pass an argument type and then spend valuable debugging only to discover that you pass a `str` instead of an `int`. Python now supports type hinting, which allows you to more easily track the argument type. 
+As a quick reminder, Python is a dynamically typed language. Which is to say that unlike other languages where we must specify a variable type during it's creation, the type of a variable in Python is largely determined at run time. That makes for a very flexible language, but can create some challenges during development - it's easy to incorrectly pass an argument type and then spend valuable debugging only to discover that you pass a `str` instead of an `int`. Python now supports type hinting, which allows you to more easily track the argument type.
 
 When possible, it is highly recommended that that you use type hints - not only for the benefits of autocompletion in VS Code, but also as a kindness to your fellow developers. Here are some quick resources about Type Hinting:
 
@@ -78,7 +77,7 @@ class Foo:
 
 ## Singletons
 
-Classes that belong to a single instance of an operator. 
+Classes that belong to a single instance of an operator.
 
 ### Common Characteristics
 
@@ -97,7 +96,6 @@ class Output:
 ## Links to Derivative's official docs
 
 <!-- links -->
-[TouchDesigner Extensions]:https://docs.derivative.ca/Extensions
 [Real Python type hinting lesson]:https://realpython.com/lessons/type-hinting/
 [mypy type hints cheat sheet]:https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html
 [Python docs typing]:https://docs.python.org/3.9/library/typing.html

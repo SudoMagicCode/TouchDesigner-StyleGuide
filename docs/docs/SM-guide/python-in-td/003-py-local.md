@@ -5,9 +5,8 @@ description: A special case for Python modules in TouchDesigner
 slug: /SM-guide/python-in-td/local-modules
 ---
 
-# Local Modules
 
-The [MOD Class] performs some convince functions for users in TouchDesigner, especially when using local -> Modules. This allows the `import` keyword in Python to easily locate a Text DAT so it can be used as a Python module on demand. 
+The [MOD Class] performs some convince functions for users in TouchDesigner, especially when using local -> Modules. This allows the `import` keyword in Python to easily locate a Text DAT so it can be used as a Python module on demand.
 
 According to the TouchDesigner Wiki, the hierarchy for the Python search path during `import` behaves as follows:
 
@@ -31,7 +30,7 @@ local
 
 ## The Magical Local/Modules
 
-At SudoMagic we take advantage of this feature in two locations in a typical project. At the root of a project the `SudoMagic` library is located in `base_scaffold/local/modules/SudoMagic`. This ensures that our library of reusable functions is available throughout the entire project. 
+At SudoMagic we take advantage of this feature in two locations in a typical project. At the root of a project the `SudoMagic` library is located in `base_scaffold/local/modules/SudoMagic`. This ensures that our library of reusable functions is available throughout the entire project.
 
 ```
 base_scaffold
@@ -40,7 +39,7 @@ base_scaffold
             └── SudoMagic
 ```
 
-### Project Specific 
+### Project Specific
 
 ```
 base_scaffold
