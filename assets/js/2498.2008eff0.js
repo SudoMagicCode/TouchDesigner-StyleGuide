@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktdStyleGuide=self.webpackChunktdStyleGuide||[]).push([[2498],{2498:(e,t,c)=>{c.d(t,{createArchitectureServices:()=>u.S});var u=c(3009);c(8198)}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktdStyleGuide=self.webpackChunktdStyleGuide||[]).push([[2068],{2068:(e,t,s)=>{s.d(t,{createInfoServices:()=>u.v});var u=s(1366);s(8198)}}]);
