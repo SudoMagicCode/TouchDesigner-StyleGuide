@@ -1,5 +1,6 @@
 ---
 title: Preferences
+sidebar_position: 2
 description: An overview of TouchDesigner preferences
 slug: /SM-guide/preferences
 ---
