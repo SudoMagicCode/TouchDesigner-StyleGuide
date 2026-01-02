@@ -16,7 +16,7 @@ When working on projects that feature multiple machines, or multiple processes, 
 While SudoMagic has a long history of authoring config and manifest files by hand - this is a deeply frustrating and error prone process. For that reason we've have dedicated tool whose function is producing and editing project manifests.
 
 The web-app version of our authoring tool can be found here:  
-[scrivener.sudo.codes](https://scrivener.sudo.codes)
+[quill.sudo.codes](https://quill.sudo.codes)
 
 :::info Considerations
 Keeping, maintaining, and working within the rules that a manifest requires is not always fun. In fact, it can be frustrating and often feel like it's slowing down your ability to make progress as it imposes rules and constraints on your projects.
