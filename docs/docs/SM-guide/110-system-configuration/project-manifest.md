@@ -13,7 +13,7 @@ When working on projects that feature multiple machines, or multiple processes, 
 
 ## Manifest Authoring
 
-While SudoMagic has a long history of authoring config and manifest files by hand - this is a deeply frustrating and error prone process. For that reason we've have dedicated tool whose function is producing and editing project manifests.
+While SudoMagic has a long history of authoring config and manifest files by hand - this is a deeply frustrating and error prone process. For that reason we built dedicated tool whose function is producing and editing project manifests.
 
 The web-app version of our authoring tool can be found here:  
 [quill.sudo.codes](https://quill.sudo.codes)
